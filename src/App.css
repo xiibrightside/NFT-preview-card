@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: var(--very-dark-blue-mainbg);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: calc(100vh - 1px);
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  width: 400px;
+  height: 700px;
+  background-color: var(--very-dark-blue-cardbg);
+  border-radius: 15px;
+  padding: 20px;
+  overflow: visible;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.equi {
+  width: 360px;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.heroimgs {
+  cursor: pointer;
+  width: 360px;
+  border-radius: 15px;
+  position: relative;
+  background-color: rgb(1, 10, 10);
+}
+
+.prev {
+  width: 360px;
+  height: 360px;
+  border-radius: 15px;
+  background-color: rgba(0, 255, 255, 0.5);
+  position: absolute;
+  top: 0.1px;
+}
+
+.preview {
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  color: var(--white);
+  margin: 20px 0 15px 0;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.details {
+  font-family: "Outfit", sans-serif;
+  color: var(--soft-blue);
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.ethinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconeth {
+  margin: 25px 5px 20px 0;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  color: var(--cyan);
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 150px;
+  font-weight: 600;
+}
+
+.iconclock {
+  width: 20px;
+  height: 20px;
+  margin-top: 23px;
+}
+
+.days {
+  font-family: "Outfit", sans-serif;
+  color: var(--soft-blue);
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.rect {
+  width: 360px;
+  height: 1px;
+  background-color: var(--soft-blue);
+  opacity: 0.2;
+  margin-top: 15px;
+}
+
+.creator {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  margin: 20px 20px 30px 0;
+}
+
+#creator {
+  font-family: "Outfit", sans-serif;
+  color: var(--soft-blue);
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.jules {
+  color: var(--white);
+}
+
+.jules:hover {
+  color: var(--cyan);
+  transition: all 300ms ease-in-out;
+}
+
+.equititle {
+  color: var(--white);
+}
+
+.equititle:hover {
+  color: var(--cyan);
+  transition: all 300ms ease-in-out;
+}
+
+@media only screen and (max-width: 540px) {
+  .card {
+    width: 300px;
+    height: 500px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .equi {
+    width: 260px;
+  }
+
+  .heroimgs {
+    width: 260px;
+  }
+
+  .prev {
+    width: 260px;
+    height: 260px;
+  }
+
+  h1 {
+    margin: 10px 0 15px 0;
+    font-size: 20px;
+  }
+
+  .details {
+    font-size: 15px;
+  }
+
+  .iconeth {
+    margin: 15px 5px 15px 0;
+  }
+
+  h2 {
+    font-size: 14px;
+    margin-top: 14px;
+    margin-right: 80px;
+  }
+
+  .iconclock {
+    width: 15px;
+    height: 15px;
+    margin-top: 17px;
+  }
+
+  .days {
+    margin-top: 14px;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .rect {
+    width: 260px;
+    margin-top: 5px;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    margin: 15px 15px 30px 0;
+  }
+
+  #creator {
+    margin-top: 20px;
+    font-size: 14px;
   }
 }
