@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NFT-preview-card/static/css/main.ee38ef89.css",
+    "main.js": "/NFT-preview-card/static/js/main.15f6a4bc.js",
+    "static/media/image-equilibrium.jpg": "/NFT-preview-card/static/media/image-equilibrium.88bdbc91a544a2a4d04a.jpg",
+    "index.html": "/NFT-preview-card/index.html",
+    "static/media/icon-view.svg": "/NFT-preview-card/static/media/icon-view.fedac5512cc6657af397a76d5e03ea37.svg",
+    "static/media/icon-clock.svg": "/NFT-preview-card/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
+    "static/media/icon-ethereum.svg": "/NFT-preview-card/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
+    "main.ee38ef89.css.map": "/NFT-preview-card/static/css/main.ee38ef89.css.map",
+    "main.15f6a4bc.js.map": "/NFT-preview-card/static/js/main.15f6a4bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee38ef89.css",
+    "static/js/main.15f6a4bc.js"
+  ]
+}
